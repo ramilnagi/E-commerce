@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,6 +18,9 @@
     <header>
       <div class="container">
         <nav>
+          <div class="toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
           <ul>
             <li class="active"><a href="">Women</a></li>
             <li><a href="">Men</a></li>
@@ -96,7 +106,10 @@
                   <div>$200.00</div>
                 </div>
                 <div class="bag_footer">
-                  <div class="view">VIEW BAG</div>
+                  <a href="basket.html">
+                    <div class="view">VIEW BAG</div>
+                  </a>
+
                   <div class="check">CHECK OUT</div>
                 </div>
               </div>
@@ -106,6 +119,7 @@
         </nav>
       </div>
     </header>
+
     <!-- main -->
     <main>
       <div class="container">
@@ -140,7 +154,7 @@
             </div>
             <h4>PRİCE</h4>
             <p class="price">$50.00</p>
-            <button>ADD TO CARD</button>
+            <button class="add_to_card">ADD TO CARD</button>
             <div class="note">
               <p class="note_text">
                 Fine sutunning women's cocktail dresses and party dresses. Stand
