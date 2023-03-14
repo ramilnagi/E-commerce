@@ -224,7 +224,7 @@ width: 121px;
 }
 .product_img{
   display: flex;
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
   gap: 10px;
 }
 .product_img .product_count{
