@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title>E-commerce</title>
   </head>
   <body>
-    <!-- header -->
     <header>
       <div class="container">
         <nav>
@@ -51,7 +50,7 @@
                     </div>
                     <p>Color:</p>
                     <div class="color">
-                      <div class="active_color"><div></div></div>
+                      <div class="color1"><div></div></div>
                       <div class="color2"></div>
                       <div class="color3"></div>
                     </div>
@@ -78,7 +77,7 @@
                     </div>
                     <p>Color:</p>
                     <div class="color">
-                      <div class="active_color"><div></div></div>
+                      <div class="color1"><div></div></div>
                       <div class="color2"></div>
                       <div class="color3"></div>
                     </div>
@@ -110,84 +109,96 @@
         </nav>
       </div>
     </header>
-
-    <!-- main -->
-    <main class="main">
+    <div class="main">
       <div class="container">
-        <section class="category-section">
-          <h2 class="section-title">Category Name</h2>
-          <div class="row">
-            <!-- card -->
-            <div class="card">
-              <div class="card-img">
-                <a href="product.html"
-                  ><img src="./imgs/protuctimage1.svg" alt=""
-                /></a>
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
+        <div class="basket_info">
+          <h1>CART</h1>
+          <div class="selected_product basket_content">
+            <div>
+              <h3>Apollo</h3>
+              <h4>Running Short</h4>
+              <p class="price">$50.00</p>
+              <p>SIZE:</p>
+              <div class="size">
+                <div>XS</div>
+                <div class="active_size">S</div>
+                <div>M</div>
+                <div>L</div>
               </div>
-              <div class="card-body">
-                <p><a href="product.html">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
-                <img src="./imgs/productimage2.svg" alt="" />
-              </div>
-              <div class="card-body">
-                <p><a href="">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
+              <p>COLOR:</p>
+              <div class="color">
+                <div class="active_color"><div></div></div>
+                <div class="color2"></div>
+                <div class="color3"></div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-img">
-                <div class="out_of_stock">Out Of Sctock</div>
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
-                <img
-                  src="./imgs/productimage6.svg"
-                  alt=""
-                  class="out_of_stock_img"
-                />
+            <div class="product_img">
+              <div class="product_count">
+                <div class="plus same">+</div>
+                <div class="count same">1</div>
+                <div class="minus same">-</div>
               </div>
-              <div class="card-body">
-                <p><a href="">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
-                <img src="./imgs/productimage4.svg" alt="" />
-              </div>
-              <div class="card-body">
-                <p><a href="">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
-                <img src="./imgs/productimage5.svg" alt="" />
-              </div>
-              <div class="card-body">
-                <p><a href="">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="/imgs/CircleIcon.svg" class="CircleIcon" alt="" />
-                <img src="./imgs/productimage6.svg" alt="" />
-              </div>
-              <div class="card-body">
-                <p><a href="">Apollo running short</a></p>
-                <span class="price"> $50.00</span>
+              <div>
+                <img src="/imgs/ProductD.svg" alt="" />
+                <div class="change_butons">
+                  <div><img src="./imgs/Vector (2).svg" alt="" /></div>
+                  <div><img src="./imgs/Vector (1).svg" alt="" /></div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
+          <div class="selected_product second_pr basket_content">
+            <div>
+              <h3>Jupiter</h3>
+              <h4>Wayfarer</h4>
+              <p class="price">$75.00</p>
+              <p>SIZE:</p>
+              <div class="size">
+                <div>S</div>
+                <div class="active_size">M</div>
+              </div>
+              <p>COLOR:</p>
+              <div class="color">
+                <div class="active_color"><div></div></div>
+                <div class="color2"></div>
+                <div class="color3"></div>
+              </div>
+            </div>
+            <div class="product_img">
+              <div class="product_count">
+                <div class="plus same">+</div>
+                <div class="count same">2</div>
+                <div class="minus same">-</div>
+              </div>
+              <div>
+                <img src="/imgs/glasses.svg" alt="" />
+                <div class="change_butons">
+                  <div><img src="./imgs/Vector (2).svg" alt="" /></div>
+                  <div><img src="./imgs/Vector (1).svg" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total_price basket_content">
+            <div class="calculation">
+              <div class="calculation_left">
+                <p>Tax 21%:</p>
+                <p>Quantity:</p>
+                <p>Total:</p>
+              </div>
+              <div class="calculation_right">
+                <p>$42.00</p>
+                <p>3</p>
+                <p>$200.00</p>
+              </div>
+            </div>
+            <!-- <p>Tax 21%: <b>$42.00</b></p>
+            <p>Quantity: <b>3</b></p>
+            <p>Total: <b>$200.00</b></p> -->
+            <button>ORDER</button>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
